@@ -1,6 +1,6 @@
 {
   "name": "vue-skelett",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "skeleton view builder",
   "main": "VueSkelett.vue",
   "scripts": {

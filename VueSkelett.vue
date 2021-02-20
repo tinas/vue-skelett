@@ -69,7 +69,7 @@ export default {
   ></div>
 </template>
 
-<style lang="scss" scoped>
+<style scoped>
 .vue-skelett-circle {
   border-radius: 50%;
   animation: pulse 1s infinite;

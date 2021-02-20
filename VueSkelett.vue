@@ -30,16 +30,16 @@ export default {
   },
   computed: {
     widthRegex() {
-      return this.isPercentRegex.test(this.width) ? `${this.width}` : `${this.width}px`
+      return this.isPercentRegex.test(this.width) ? this.width : `${this.width}px`
     },
     heightRegex() {
-      return this.isPercentRegex.test(this.height) ? `${this.height}` : `${this.height}px`
+      return this.isPercentRegex.test(this.height) ? this.height : `${this.height}px`
     },
     sizeRegex() {
-      return this.isPercentRegex.test(this.size) ? `${this.size}` : `${this.size}px`
+      return this.isPercentRegex.test(this.size) ? this.size : `${this.size}px`
     },
     radiusRegex() {
-      return this.isPercentRegex.test(this.radius) ? `${this.radius}` : `${this.radius}px`
+      return this.isPercentRegex.test(this.radius) ? this.radius : `${this.radius}px`
     },
     sizeStyle() {
       return {

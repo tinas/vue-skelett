@@ -56,18 +56,26 @@ export default {
 }
 </script>
 
-<template lang="pug">
-  .v-skelett-circle(v-if="type === 'circle'" :style="sizeStyle")
-  .v-skelett-flat(v-else :style="[sizeStyle, borderRadiusStyle]")
+<template>
+  <div 
+  v-if="type === 'circle'" 
+  :style="sizeStyle" 
+  class="vue-skelett-circle"
+  ></div>  
+  <div 
+  v-else 
+  :style="[sizeStyle, borderRadiusStyle]" 
+  class="vue-skelett-flat"
+  ></div>
 </template>
 
 <style lang="scss" scoped>
-.v-skelett-circle {
+.vue-skelett-circle {
   border-radius: 50%;
   animation: pulse 1s infinite;
 }
 
-.v-skelett-flat {
+.vue-skelett-flat {
   animation: pulse 1s infinite;
 }
 

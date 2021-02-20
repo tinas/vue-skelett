@@ -13,5 +13,13 @@
     "vue skeleton"
   ],
   "author": "Ahmet Tınastepe <ahmttnstpe@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tinas/vue-skelett.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tinas/vue-skelett/issues"
+  },
+  "homepage": "https://github.com/tinas/vue-skelett#readme"
 }

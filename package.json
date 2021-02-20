@@ -1,0 +1,17 @@
+{
+  "name": "vue-skelett",
+  "version": "0.1.0",
+  "description": "skeleton view builder",
+  "main": "VueSkelett.vue",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vue-skelett",
+    "skeleton",
+    "vue",
+    "vue skeleton"
+  ],
+  "author": "Ahmet Tınastepe <ahmttnstpe@gmail.com>",
+  "license": "MIT"
+}

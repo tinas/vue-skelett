@@ -12,6 +12,10 @@ Simple skeleton builder to show skeleton view while loading the page.
 
 `vue-skelett` provides a skeleton view to show in place while the web page is loading. Currently it only supports `pulse` effect. It aims to provide maximum flexibility to create looks.
 
+## Sample Code
+
+> 🚨 [vue-skelett-sample](https://gist.github.com/tinas/47b507f7c796377c81804692a1b72c4f)
+
 ## Installing
 
 ```
